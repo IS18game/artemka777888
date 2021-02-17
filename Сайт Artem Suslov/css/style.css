@@ -1,0 +1,140 @@
+body, html {
+height: 100%;
+}
+
+.frame1 {
+    background-image: url(../img/xxx.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    border: 5px solid #FFFFFF;
+}
+
+.texthr {
+    font-size: 26px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-menu {
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    text-align: left;
+    color: #39517B;
+    cursor: default;
+}
+
+.menu {
+    list-style-type: none;
+    color: #EEE2CF;
+    font-size: 30px;
+    cursor: default;
+    padding: 0;
+    opacity: 1;
+}
+
+.p1:hover {
+    opacity: 0.6;
+    display: inline;
+}
+
+.p2:hover {
+    opacity: 0.6;
+    display: inline;
+}
+.p3:hover {
+    opacity: 0.6;
+    display: inline;
+}
+
+.p4:hover {
+    opacity: 0.6;
+    display: inline;
+}
+
+.social-menu {
+    position: relative;
+    top: 8%;
+    right: 5%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.social-menu3 {
+    position: absolute;
+    right: 0;
+}
+
+.social-menu1 {
+    position: absolute;
+    right: 6%;
+}
+
+.social-menu2 {
+    position: absolute;
+    right: 3%;
+}
+
+.frame2 {
+    background-image: url(../img/Frame3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 35vh;
+    position: relative;
+    border: 5px solid #FFFFFF;
+}
+
+.news {
+    display: flex;
+    justify-content: start;
+}
+
+.textnews1 {
+    width: 295px;
+    height: 237px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #000000;
+    padding: 50px 150px;
+    cursor: default;
+}
+
+.textnews2 {
+    width: 295px;
+    height: 237px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #000000;
+    padding: 50px 150px;
+    cursor: default;
+}
+
+.iconsnews1 {
+    width: 237px;
+    height: 237px;
+    padding: 50px 0 50px 90px;
+}
+
+.iconsnews2 {
+    width: 237px;
+    height: 237px;
+    padding: 50px 0 50px 150px;
+}
